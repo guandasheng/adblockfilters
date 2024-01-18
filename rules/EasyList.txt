@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: k87V22KbED3coIEuEKxm+g
-! Version: 202401180111
+! Checksum: hhzecgDdN4JofWISkzrC8A
+! Version: 202401180810
 ! Title: EasyList
-! Last modified: 18 Jan 2024 01:11 UTC
+! Last modified: 18 Jan 2024 08:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -24619,6 +24619,7 @@ browsershots.org#@#.advert_area
 ||checkm8.com^
 ||checkoutfree.com^
 ||checkup02.biz^
+||checkupforecast.com^
 ||checkyofeed.com^
 ||cheddaramusias.life^
 ||cheecmou.com^
@@ -53941,6 +53942,7 @@ browsershots.org#@#.advert_area
 ||lyconery-readset.com^$popup
 ||lywasnothycanty.info^$popup
 ||m73lae5cpmgrv38.com^$popup
+||ma3ion.com^$popup
 ||macan-native.com^$popup
 ||maddenbusy.com^$popup
 ||mafroad.com^$popup
@@ -59002,7 +59004,7 @@ browsershots.org#@#.advert_area
 ! firework
 ||fireworkapi1.com^$domain=boldsky.com
 ! In-page video advertising.
-||anyclip.com^$third-party
+||anyclip.com^$third-party,domain=~dictionary.com|~heute.at|~video.timeout.com
 ||api.dailymotion.com^$domain=philstarlife.com
 ||api.fw.tv^
 ||avantisvideo.com^$third-party
@@ -61338,7 +61340,7 @@ ansamed.info,baltic-course.com,futbol24.com,gatewaynews.co.za,gsmarena.com,jetph
 blastingnews.com##.adv-box-content
 healthleadersmedia.com##.adv-con
 junauza.com##.adv-hd
-48hills.org,audiobacon.net,bhamnow.com,coinedition.com,coinquora.com,elements.visualcapitalist.com,iconeye.com,kdnuggets.com,londonnewsonline.co.uk,manageditmag.co.uk,mondoweiss.net,ottverse.com,overclock3d.net,smallarmsreview.com,sportsspectrum.com,sundayworld.co.za,tampabayparenting.com,theaudiophileman.com##.adv-link
+48hills.org,audiobacon.net,bhamnow.com,coinedition.com,coinquora.com,creativecow.net,elements.visualcapitalist.com,iconeye.com,kdnuggets.com,londonnewsonline.co.uk,manageditmag.co.uk,mondoweiss.net,ottverse.com,overclock3d.net,smallarmsreview.com,sportsspectrum.com,sundayworld.co.za,tampabayparenting.com,theaudiophileman.com##.adv-link
 sneakernews.com##.adv-parent
 chaseyoursport.com##.adv-slot
 greencarreports.com,motorauthority.com##.adv-spacer
@@ -61964,6 +61966,10 @@ pcworld.com##.coupons
 coursedrive.org##.cours-adsense-in-feed
 ivytech.bncollege.com##.course-finder-google-ads-body-top-content-slot
 wolfstream.tv##.cover2
+creativecow.net##.cowtracks-interstitial
+creativecow.net##.cowtracks-sidebar-rotating-ad
+creativecow.net##.cowtracks-sidebar-with-cache-busting
+creativecow.net##.cowtracks-target
 coinpaprika.com##.cp-table__row--ad-row
 realsport101.com##.cpaAd
 cpomagazine.com##.cpoma-adlabel
@@ -65938,6 +65944,7 @@ porntry.com##.center-spot
 fakings.com##.centrado
 thefappeningblog.com##.cl-exl
 bigtitsgallery.net##.classifiedAd
+teenanal.co##.clickable-overlay
 xhamster.com##.clipstore-bottom
 sunporno.com##.close-invid
 fap-nation.com,fyptt.to,gamegill.com,japaneseasmr.com##.code-block
@@ -67142,10 +67149,6 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||g.doubleclick.net/pagead/ads$subdocument,domain=game.anymanager.io|game.goo.ne.jp
 !! g.doubleclick.net/pagead/ppub_config
 @@||g.doubleclick.net/pagead/ppub_config$domain=bloomberg.com|independent.co.uk|repretel.com|telsu.fi|weather.com
-!! anyclip.com (non-invideo ads only)
-@@||anyclip.com/anyclip-widget/$script,domain=dictionary.com|heute.at|video.timeout.com
-@@||anyclip.com/main.js$script,domain=video.timeout.com
-@@||anyclip.com/static/$script,domain=video.timeout.com
 ! Non-English
 @@/banner/ad/*$image,domain=achaloto.com
 @@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party

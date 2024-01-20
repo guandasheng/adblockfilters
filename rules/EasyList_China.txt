@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /5GQkC4lW8WgXY7ky0Abxw
-! Version: 202401200111
+! Checksum: +6HPs2PtaZONwzzPH0u0Bw
+! Version: 202401200811
 ! Title: EasyList China
-! Last modified: 20 Jan 2024 01:11 UTC
+! Last modified: 20 Jan 2024 08:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1624,6 +1624,7 @@ newduba.cn###jq_youxi
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+###div_top_ads
 ##.alert_windows > .q-card__actions > a
 ###alert_windows > .q-dialog__backdrop
 ##body.desktop span[class^="c"] > a[href^="http"][rel="nofollow"][target="_blank"]
@@ -3170,6 +3171,15 @@ newduba.cn###jq_youxi
 ||yohnoirs.com^
 ||so1nv.xyz^
 ||jingalbundles.com^
+||acsegt86.shop^
+||hulichuang.mobi^
+||zfp32.buzz^
+##a[href*="/hgcoolaa.top"]
+##a[href*="/hgcool360.top"]
+||ypffkbpq.xyz^
+||hkaiedb.icu^
+||cpffkbpq.xyz^
+||ryyuvrt.cn^
 ||zzyy19.top^
 ||zzyy20.top^
 !
@@ -11258,6 +11268,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||winwin7.com/statics/js/user/xz.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -11761,7 +11772,7 @@ ebiotrade.com###dlBoxs
 docin.com###docindex_ad
 udn.com###doctop
 niutuku.com###downAD1
-xiazai.zol.com.cn###downBoxGaosu > a
+zol.com.cn###downBoxGaosu + a
 downmsn.com###downShow_tellDownload
 qiannao.com###downTb + div
 sm.cn###download-uc
@@ -17017,6 +17028,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||95306.cn/public/images/ad/
 @@||95504.net/Advertisement_
 @@||95599.cn^*ad
+@@||soft8ware.com^$generichide
 @@||99wbwc.com^$generichide
 @@||99ybcc.com^$generichide
 @@||9zvip.net/wp-content/plugins/detect-adblock/js/ads.js

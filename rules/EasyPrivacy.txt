@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Kik+Xp9PsWzw1PlEC/zQ5g
-! Version: 202402050110
+! Checksum: yn8wPk5bZwSXs7+pjo5t0A
+! Version: 202402050811
 ! Title: EasyPrivacy
-! Last modified: 05 Feb 2024 01:10 UTC
+! Last modified: 05 Feb 2024 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -42758,6 +42758,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||affilate.hh.ru^
 ||agroserver.ru/ct/
 ||analytics.carambatv.ru^
+||api.litres.ru/tracker/
 ||auto.ru/-/ajax/$~xmlhttprequest
 ||auto.ru/cookiesync/
 ||avito.ru/stat/

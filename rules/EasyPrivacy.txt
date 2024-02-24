@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: MWq33rAv7cY3L+5ea+6y+A
-! Version: 202402240101
+! Checksum: HQaIDfKtysyVAKKWTk9wQw
+! Version: 202402240811
 ! Title: EasyPrivacy
-! Last modified: 24 Feb 2024 01:01 UTC
+! Last modified: 24 Feb 2024 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2727,6 +2727,7 @@ _WebVitalsReporter_
 ! parked domains
 /ls.php?t=
 /track.php?domain=
+/track.php?toggle=
 ! pinterest.*
 /ContextLogResource/*
 /statslogresource/*
@@ -5002,6 +5003,7 @@ omni.soundestlink.com$image
 ||pointillist.com^$third-party
 ||pointmediatracker.com^$third-party
 ||pointomatic.com^$third-party
+||polaranalytics.com^$third-party
 ||polarbyte.com^$third-party
 ||polarcdn-pentos.com^$third-party
 ||pop6serve.com^$third-party
@@ -5760,6 +5762,7 @@ omni.soundestlink.com$image
 ||webtuna.com^$third-party
 ||wecantrack.com^$third-party
 ||wgsas.com^$third-party
+||whale.camera^$third-party
 ||wheredoyoucomefrom.ovh^$third-party
 ||whitepixel.com^$third-party
 ||whoaremyfriends.com^$third-party

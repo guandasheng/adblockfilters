@@ -927,11 +927,11 @@ x99av.com#%#//scriptlet('set-constant', 'ADSOBJET', 'emptyObj')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160509
 embedrise.com#%#//scriptlet('prevent-window-open')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158639
-aiyifan.tv,iyf.tv#%#//scriptlet('abort-on-stack-trace', 'Object.prototype.ppmm', 'invokeInterstitial')
+yfsp.tv,aiyifan.tv,iyf.tv#%#//scriptlet('abort-on-stack-trace', 'Object.prototype.pgmp', 'invokeInterstitial')
 !#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android)
-aiyifan.tv,iyf.tv#$#.bg-overlayer { pointer-events: unset !important; }
-aiyifan.tv,iyf.tv#%#//scriptlet('remove-class', 'publicplay', '#main-player')
-aiyifan.tv,iyf.tv#%#//scriptlet('abort-on-property-read', 'Object.prototype.ShouldLoadAds')
+yfsp.tv,aiyifan.tv,iyf.tv#$#.bg-overlayer { pointer-events: unset !important; }
+yfsp.tv,aiyifan.tv,iyf.tv#%#//scriptlet('remove-class', 'publicplay', '#main-player')
+yfsp.tv,aiyifan.tv,iyf.tv#%#//scriptlet('abort-on-property-read', 'Object.prototype.ShouldLoadAds')
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/154174
 9xav.cc#%#//scriptlet('remove-class', 'q-body--prevent-scroll', 'body')
@@ -1295,7 +1295,6 @@ nodejs.cn###pagead
 3dmgame.com#?#.Gmaeinfobtn_tab > a.patchshow[style]:has(> span:contains(/^广告$/))
 gvm.com.tw##.promotion_ad
 gvm.com.tw##.promotion > .sp-txt
-aiyifan.tv,iyf.tv##.video-player > .cc > .ng-star-inserted[style="position: relative;"]
 huya.com##.room-sidebar #public-screen-ab
 vidhub.me,vidhub.tv##.promolnk
 vidhub.me,vidhub.tv##.promote-link
@@ -1352,7 +1351,8 @@ sohu.com#?#.news-wrapper > .news-box:has(> div[id^="taboola-below-article-widget
 ||user.042.cn/adver/adver.js
 ||cloud.tencent.com/developer/api/common/getAds
 ||cloud.tencent.com/developer/api/common/getOneAds
-aiyifan.tv,iyf.tv#?#.video-player + div.ps > div:has(> div.bb)
+yfsp.tv,aiyifan.tv,iyf.tv##.video-player > .dabc > .ng-star-inserted[style="position: relative;"]
+yfsp.tv,aiyifan.tv,iyf.tv##.video-player + div.ps > div:has(> div.bb)
 ||head4.net/ad_
 yiyouliao.com#?#.yyl-weiruan-ads-list-item:has(> div#small1)
 yiyouliao.com#?#.yyl-weiruan-video-list-item:has(> div#small2)
@@ -2885,6 +2885,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_chinese
 ! Bad:  ||example.org/video-links (should be in specific.txt)
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158639
+||yfsp.tv/app/*.js$replace=/this\.shouldSkipAds\|\|/!0||/
 ||iyf.tv/app/*.js$replace=/this\.shouldSkipAds\|\|/!0||/
 ||aiyifan.tv/app/*.js$replace=/this\.shouldSkipAds\|\|/!0||/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114470
@@ -4930,6 +4931,9 @@ newduba.cn###jq_youxi
 ||cqisam.xyz^
 ||ndthdte125.shop^
 ||ndthdtr586.shop^
+||3bxe2.cyou^
+||rzfdbsn.cn^
+||hgthpj.xyz^
 ||yyddkm526.shop^
 ||zagyjnn.cn^
 ||zopuqv.icu^

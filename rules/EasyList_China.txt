@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: x5MInUhilm2ONahePNSjLw
-! Version: 202403110811
+! Checksum: o72VdpxElzsvumI6zypcKw
+! Version: 202403111611
 ! Title: EasyList China
-! Last modified: 11 Mar 2024 08:11 UTC
+! Last modified: 11 Mar 2024 16:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1985,6 +1985,8 @@ newduba.cn###jq_youxi
 ||jbmfldt.cn^
 ##a[href*=".asd245796.com:"]
 ||diccsbhij.com^
+##a[href*=".mjjji.com/"]
+||justapp.top^
 ||zojyob.icu^
 ||zopuqv.icu^
 ||zsjpi.cn^
@@ -16711,9 +16713,8 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@_300_250.$domain=nanrenwo.net
 @@_370x270.$domain=bairuitool-cn.aliyun-hk03.hicheng.net
 @@_ads_cpc_$domain=90lover.cn
-@@_cpa_cpm_$domain=52xkdy.com
 @@_cpc_cpm/$domain=youranshare.com
-@@_cpc_cpm_$domain=fydy8.com|saraba1st.com
+@@_cpc_cpm_$domain=saraba1st.com
 @@||060s.com/images_ad/*.png
 @@||073img.com/*,*,
 @@||10010.cn^*/ad
@@ -17020,9 +17021,9 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||hanjubaike.com^$script,~third-party
 @@||hanjuwang.com^$script,~third-party
 @@||hanjuwang.net^$script,~third-party
-@@||haokoubei.top/check_img_block.js
-@@||haokoubei.top/dl/rfo_v_f_pc.js
-@@||haokoubei.top/sz/to_v_f.js
+@@||haokoubei.top/sz/tos_v_f.js
+@@_adview_$domain=52xkdy.com
+@@_adview_$domain=fydy8.com
 @@||haoweichi.com/Public/js/ads.js
 @@||hbu.cn^*/ad.css?$stylesheet
 @@||hc360.com/ad/*.css

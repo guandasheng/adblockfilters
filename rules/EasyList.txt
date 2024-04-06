@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mqRP+mxASdpzeEZIdlnJNQ
-! Version: 202404060101
+! Checksum: sKASFOFk0rznEQCsj1Selw
+! Version: 202404060811
 ! Title: EasyList
-! Last modified: 06 Apr 2024 01:01 UTC
+! Last modified: 06 Apr 2024 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -822,11 +822,9 @@
 /images/adv/*
 /images/adz/*
 /images2/Ads/*
-/imfloat.
 /img/ad/*
 /img/aff/*
 /img_ad/*
-/impop.
 /in/show/?mid=$third-party
 /include/ad/*
 /include/ad_
@@ -834,19 +832,14 @@
 /index-ad-
 /index-ad.
 /index_ad/*
-/index_ads.
+/index_ads.js
 /infinity.js.aspx?
 /inhouse_ads/*
-/injectad.
-/inline_ad.
-/inline_ad_
-/inline_ads.
-/InlineAds.
+/inlineads.aspx
 /insertads.js
 /internAds.css
 /Javascripts/SBA-
-/jquery-ads.
-/jquery.ad.
+/jquery.ad.js
 /jquery.adi.js
 /jquery.adx.js
 /jquery.dfp.js
@@ -870,16 +863,13 @@
 /lazyload.ads?
 /left_ads.js
 /leftad.
-/leftad_
 /leftads.
 /legion-advertising-atlasastro/*
 /li.blogtrottr.com/imp?
 /link?z=$subdocument
-/linkad2.
-/linkads.
+/linkad2.jpg
 /livejasmin.$domain=~livejasmin.com
-/livejasmin2.
-/livejasmin_
+/livejasmin2.jpg
 /livejasminpopupunder.
 /localads.aspx
 /log_ad?
@@ -1013,7 +1003,6 @@
 /plugins/wp125/*$~stylesheet
 /plugins/wp_actionpop/*
 /plugins_ads_
-/pm_ads/*
 /poll-ad-
 /pop-under.
 /pop_8_2.js
@@ -1027,11 +1016,9 @@
 /popunder-
 /popunder/*
 /popunder1.
-/popunder1_
 /popunder2.
-/popunder4.
-/popunder5.
-/popunder7.
+/popunder5.js
+/popunder7.min.js
 /popunder?
 /popunder_
 /popunderjs/*
@@ -1060,9 +1047,6 @@
 /proxyadcall?
 /pub/ad/*
 /pub/ads/*
-/pubad.$domain=~pubad.gov.lk
-/pubads.
-/pubads_
 /public/ad/*
 /public/ads/*
 /public/ads_
@@ -1078,15 +1062,9 @@
 /pustrck.js
 /radioAdEmbed.
 /radioAdEmbedGPT.
-/railad.
-/rcom-ads-
-/rcom-ads.
-/rcom-video-ads.
-/rcsad_
-/rdm-ad-
-/RdmAdFeed.
+/railad.jpg
+/RdmAdFeed.js
 /rdrr/renderer.js
-/re-ads-
 /realmedia/ads/*
 /reclama/*
 /redirect/?spot_id=
@@ -1094,11 +1072,10 @@
 /reklam.$domain=~github.com|~reklam.com.tr
 /reklam/*$domain=~cloudflare.com|~github.com|~reklam.com.tr
 /reklama/*$domain=~github.com
-/reklama1.
+/reklama1.js
 /reklama2.
 /reklama3.
 /reklama4.
-/reklama5.$domain=~reklama5.mk
 /reklame/*
 /related-ads.
 /relatedads.
@@ -1106,17 +1083,15 @@
 /remove_ads.
 /ren.gif?
 /report_ad.js
-/resources/ad.
 /resources/ads/*
-/resources/ads_
 /responsive/ad_
 /responsive_ads.js
 /right-ad-
 /right_ad.
 /right_ad_
 /right_ads.
-/rightad.
-/rightads.$domain=~rightads.co.uk
+/rightad.js
+/rightads.js
 /rotatingad.
 /s.ashx?btag
 /sbar.json?key=
@@ -1369,6 +1344,7 @@
 ://promo.$~media,third-party,domain=~myshopify.com|~promo.com|~shopifycloud.com|~slidely.com
 ://pt.*?psid=$third-party
 ://uads.$third-party,xmlhttprequest
+=bT1zdXY1JnI9$third-party,xmlhttprequest
 =half-page-ad&
 ?ab=1&zoneid=
 ?adspot_
@@ -36527,6 +36503,7 @@ browsershots.org#@#.advert_area
 ||ksehinkitw.hair^
 ||kshzlyvbaaa.com^
 ||ksnbiepnvjdi.com^
+||ksnbtmz.com^
 ||kssvsjfhxpzwfd.com^
 ||kstjqjuaw.xyz^
 ||kstvhknmhfppbf.com^
@@ -56564,6 +56541,7 @@ browsershots.org#@#.advert_area
 ||nexeps.com^$third-party
 ||nextclick.pl^$third-party
 ||nextmillennium.io^$third-party
+||nextmillmedia.com^$third-party
 ||nextoptim.com^$third-party
 ||nitmus.com^$third-party
 ||nitropay.com^$third-party
@@ -65288,6 +65266,7 @@ tweaktown.com###DesktopTop
 newser.com###DivStoryAdContainer
 stripes.com###FeatureAd
 esports.gg,howlongagogo.com,neatorama.com###FreeStarVideoAdContainer
+esports.gg###FreeStarVideoAdContainer_VCT
 titantv.com###GridPlayer
 appatic.com,gamescensor.com###HTML2
 fanlesstech.com###HTML2 > .widget-content
@@ -66934,7 +66913,7 @@ d4builds.gg##.app__ad__leaderboard
 classicfm.com##.apple_music
 icon-icons.com##.apu
 icon-icons.com##.apu-mixed-packs
-chron.com,mysanantonio.com,seattlepi.com,sfgate.com##.ar16-9
+chron.com,middletownpress.com,mysanantonio.com,seattlepi.com,sfgate.com##.ar16-9
 ajc.com,bostonglobe.com##.arc_ad
 adn.com,businessoffashion.com,irishtimes.com##.arcad-feature
 1news.co.nz,actionnewsjax.com,boston25news.com,easy93.com,fox23.com,kiro7.com,wftv.com,whio.com,wpxi.com,wsbradio.com,wsbtv.com,wsoctv.com##.arcad_feature
@@ -66983,6 +66962,7 @@ pickmypostcode.com##.aside-right.aside
 goal.com##.aside_ad-rail__cawG6
 decrypt.co##.aspect-video
 theadvocate.com##.asset-breakout-ads
+macleans.ca##.assmbly-ad-block
 releasestv.com##.ast-above-header-wrap
 animalcrossingworld.com##.at-sidebar-1
 guidingtech.com##.at1

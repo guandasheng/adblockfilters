@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 02kbjqKegXlBMqsdA9Kf7w
-! Version: 202405010810
+! Checksum: NQd0e6Qu3o+Y2sM39VzHjg
+! Version: 202405011611
 ! Title: EasyPrivacy
-! Last modified: 01 May 2024 08:10 UTC
+! Last modified: 01 May 2024 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -48989,6 +48989,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !
 !---------- Hungarian ----------
 !
+@@||keytiles.com/tracking/$script,domain=blikk.hu
 @@||kozkutak.hu/getdata.php?v*=pageview$~third-party
 !
 !---------- Icelandic ----------

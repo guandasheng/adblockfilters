@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: veXJIv+/9OACOOvBBlOIhA
-! Version: 202405100810
+! Checksum: mdVuxEXsR5Y0DxPJZ4YmfA
+! Version: 202405101611
 ! Title: EasyList China
-! Last modified: 10 May 2024 08:10 UTC
+! Last modified: 10 May 2024 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2579,6 +2579,8 @@ newduba.cn###jq_youxi
 ||mmgap.cn^
 ||yssryr.cn^
 ||88lm15.com^
+||iaosua.com^
+||djxzk.top^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -7621,7 +7623,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||baidu.com/api/*/ads/
 ||baidu.com/api/proxyapi?tag=adv&
 ||baidu.com/api/wikiad/
-||baidu.com/api/wikiui/directad?
+||baidu.com^*/directad?
 ||baidu.com/api/wikiui/getasp?
 ||baidu.com/api/wikiui/guesslike?
 ||baidu.com/article/ajax/getmarticlestepdata?

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SfyUe3nugcclfw2oFf9H3Q
-! Version: 202406240121
+! Checksum: iOCikZFR/jMiENqG3dtVog
+! Version: 202406240810
 ! Title: EasyList
-! Last modified: 24 Jun 2024 01:21 UTC
+! Last modified: 24 Jun 2024 08:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -150,7 +150,7 @@
 /ad-125.
 /ad-468-
 /ad-bottom.
-/ad-choices-
+/ad-choices-$image
 /ad-choices.
 /ad-engine.js
 /ad-scripts--$script
@@ -302,7 +302,6 @@
 /ads/outbrain?
 /ads/popout.
 /ads/popup.
-/ads/preroll-
 /ads/rectangle_$subdocument
 /ads/revgen.
 /ads/serve?
@@ -458,7 +457,6 @@
 /amp4ads-host-v0.js
 /ane-popup-banner.js
 /ane-popup.js
-/ane-preroll/preroll.js
 /annonse.
 /annonser.
 /api-ads.
@@ -777,7 +775,7 @@
 /pioneersuspectedjury.com/*
 /pix/ads/*$image
 /pixel/puclc?
-/pixel/pure
+/pixel/pure$third-party
 /pixel/purs?
 /pixel/purst?
 /pixel/sbe?
@@ -789,16 +787,15 @@
 /plugins/adrotate/*$script
 /plugins/ads-
 /plugins/ads/*$~xmlhttprequest
-/plugins/adsanity-
+/plugins/adsanity-$script,stylesheet
 /plugins/advanced-ads/*$domain=~wordpress.org
 /plugins/ane-banners-entre-links/*
-/plugins/ane-preroll-
+/plugins/ane-preroll$~xmlhttprequest
 /plugins/cactus-ads/*$script,stylesheet
 /plugins/cpx-advert/*$script
 /plugins/dx-ads/*$script
 /plugins/meks-easy-ads-widget/*$stylesheet
 /plugins/mts-wp-in-post-ads/*$script,stylesheet
-/plugins/page-cornr-
 /plugins/popunderpro/*$script
 /plugins/ultimate-popunder/*$~stylesheet
 /plugins/wp-moreads/*$~stylesheet
@@ -1035,7 +1032,7 @@
 /wp-auto-affiliate-links/*
 /wp-bannerize-$script,stylesheet
 /wp-bannerize.$script,stylesheet
-/wp-bannerize/*
+/wp-bannerize/*$script,stylesheet
 /wp-content/ads/*$~xmlhttprequest
 /wp-content/mbp-banner/*$image
 /wp-content/plugins/amazon-auto-links/*$script,stylesheet
@@ -1045,11 +1042,11 @@
 /wp-content/plugins/bhcb/lock.js
 /wp-content/plugins/bookingcom-banner-creator/*
 /wp-content/plugins/bookingcom-text2links/*
-/wp-content/plugins/fasterim-optin/*
+/wp-content/plugins/fasterim-optin/*$~xmlhttprequest
 /wp-content/plugins/m-wp-popup/*$~stylesheet
 /wp-content/plugins/platinumpopup/*$script,stylesheet
-/wp-content/plugins/popad/*
-/wp-content/plugins/the-moneytizer/*
+/wp-content/plugins/popad/*$script,stylesheet
+/wp-content/plugins/the-moneytizer/*$script
 /wp-content/plugins/thirstyaffiliates/*
 /wp-content/plugins/useful-banner-manager/*
 /wp-content/plugins/wp-ad-guru/*$script,stylesheet
@@ -1302,7 +1299,6 @@ _widget_ad.
 .prebid.$domain=~prebid.org
 /_js/prbd_6.19.0.js
 /ad/postbid_handler1.0.9.js
-/adn-hb/*
 /AudienceNetworkPrebid.
 /gpt-prebid.js
 /pbjsandwich.
@@ -1359,7 +1355,6 @@ _prebid8.
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
 /adb_detector.
-/adblock-alerter/*
 /adblock-detect.
 /adblock-detector.
 /adblock-message.
@@ -18974,6 +18969,7 @@ browsershots.org#@#.advert_area
 ||aphemicstull.com^
 ||aphidsapprend.top^
 ||aphidsclee.com^
+||api168168.com^
 ||apiculirackman.top^
 ||apidata.info^
 ||apiecelee.com^
@@ -20331,6 +20327,7 @@ browsershots.org#@#.advert_area
 ||bcuiaw.com^
 ||bcxcxixcwprccn.com^
 ||bczzwakqyae.com^
+||bd51static.com^
 ||bdbffuwrxmsekjp.com^
 ||bdbovbmfu.xyz^
 ||bddc935c97.com^
@@ -39165,6 +39162,7 @@ browsershots.org#@#.advert_area
 ||noureewo.com^
 ||nourishinghorny.com^
 ||nourishmentrespective.com^
+||nouveau-digital.com^
 ||nouveaulain.com^
 ||nouvhidtxryveg.com^
 ||novadune.com^
@@ -64672,6 +64670,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||embed.comicbook.com^$subdocument
 ||embed.ex.co^$third-party
 ||embed.sendtonews.com^$third-party
+||floridasportsman.com/video_iframev9.aspx
 ||fqtag.com^$third-party
 ||fwcdn1.com/js/fwn.js
 ||fwcdn1.com/js/storyblock.js
@@ -66246,6 +66245,7 @@ games2jolly.com###leaderboard_area_home
 planetminecraft.com###leaderboard_atf
 canadianbusiness.com,macleans.ca,vidio.com,yardbarker.com###leaderboard_container
 spoonuniversity.com###leaderboard_fixed
+sportsnet.ca###leaderboard_master
 belgie.fm,danmark.fm,deutschland.fm,espana.fm,italia.fm,nederland.fm###leaderboardbg
 eel.surf7.net.my###left
 news9live.com###left_before_story
@@ -66567,6 +66567,7 @@ sun-sentinel.com###stnWrapperDiv
 westernjournal.com###stnvideo
 rawstory.com###story-top-ad
 healthshots.com###storyBlockOne
+suffolknewsherald.com###story_one_by_one_group
 krunker.io###streamContainer
 web-capture.net###stw_ad
 arenaev.com,gsmarena.com###subHeader
@@ -66793,6 +66794,7 @@ newspointapp.com##.Ad_wrapper
 greatandhra.com##.AdinHedare
 jagranjosh.com##.Ads
 coingape.com##.AdsMid
+sportsnet.ca##.Ads_card-wrapper__KyXLu
 iogames.onl##.Adv
 yandex.com##.AdvOffers
 airportinfo.live,audiokarma.org,audizine.com##.AdvallyTag
@@ -67048,6 +67050,7 @@ mobilesyrup.com##.ad-goes-here
 andscape.com##.ad-incontent-wrapper
 dailyuptea.com##.ad-info
 downloads.digitaltrends.com##.ad-kargo
+apksum.com##.ad-left
 citynews.ca##.ad-load
 mariopartylegacy.com##.ad-long
 olympics.com##.ad-margin-big
@@ -69441,6 +69444,7 @@ actionnetwork.com##.promotion-table
 throwawaymail.com##.promotion_row
 bostonreview.net##.promotop
 insauga.com##.proper-content-dynamic
+highspeedinternet.com##.provider-ads
 football365.com,planetf1.com,planetrugby.com##.ps-block-a
 kathmandupost.com##.pt-0
 gsmarena.com##.pt-10
@@ -70271,6 +70275,7 @@ justthenews.com##.video--vdo-ai
 songkick.com##.video-ad-wrapper
 forexlive.com##.video-banner__wrapper
 cyclinguptodate.com##.video-container
+floridasportsman.com##.video-detail-player
 gbnews.com##.video-inbody
 emptycharacter.com##.video-js
 forbes.com,nasdaq.com##.video-placeholder
@@ -72200,6 +72205,7 @@ badjojo.com###rightcol
 onlyporn.tube,porntop.com###s-suggesters
 homemade.xxx###scrollhere
 sexyandfunny.com###sexy-links
+spankbang.com###shorts-frame
 javtiful.com###showerm
 3movs.com###side_col_video_view
 fc2covid.com###sidebar > .widget_block

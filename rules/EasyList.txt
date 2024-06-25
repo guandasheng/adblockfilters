@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gfZkJ07g3z2q5hbQ9GrrCQ
-! Version: 202406241610
+! Checksum: RMkFAIR3EtFqAd+TicZq3A
+! Version: 202406250120
 ! Title: EasyList
-! Last modified: 24 Jun 2024 16:10 UTC
+! Last modified: 25 Jun 2024 01:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8265,6 +8265,7 @@ _800x80_
 ##.ad_contents
 ##.ad_crown
 ##.ad_custombanner
+##.ad_d_big
 ##.ad_db
 ##.ad_default
 ##.ad_description
@@ -15475,6 +15476,7 @@ _800x80_
 ! Invideo advert: gizmodo.com,avclub.com,qz.com,lifehacker.com,theroot.com
 ##.js_related-stories-inset
 ! element specific
+##ins.adsbygoogle[data-ad-client]
 ##ins.adsbygoogle[data-ad-slot]
 ! (NSFW) club-rileyreid.com,clubmiamalkova.com,lanarhoades.mypornstarblogs.com
 ###mgb-container > #mgb
@@ -56061,6 +56063,7 @@ browsershots.org#@#.advert_area
 ||capacitygrid.com^$third-party
 ||caroda.io^$third-party
 ||casino-zilla.com^$third-party
+||cazamba.com^$third-party
 ||cb-content.com^$third-party
 ||cdnreference.com^$third-party
 ||charltonmedia.com^$third-party
@@ -56925,6 +56928,7 @@ browsershots.org#@#.advert_area
 ||7fc8.site^$document,popup
 ||814272c4.xyz^$document,popup
 ||8acc5c.site^$document,popup
+||8b71e197.xyz^$document,popup
 ||8bf6c3e9-3f4f-40db-89b3-58248f943ce3.online^$document,popup
 ||977878.xyz^$document,popup
 ||97b448.xyz^$document,popup
@@ -64557,6 +64561,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||twitter.com/*/videoads/
 ||twt-assets.washtimes.com^$script,domain=washingtontimes.com
 ||ubuntugeek.com/images/ubuntu1.png
+||uefa.com/imgml/uefacom/sponsors/
 ||uhdmovies.eu/axwinpop.js
 ||uhdmovies.foo/onewinpop.js
 ||ukcampsite.co.uk/banners/
@@ -67358,6 +67363,7 @@ faroutmagazine.co.uk##.amp-next-page-separator
 cyberciti.biz##.amp-wp-4ed0dd1
 thepostemail.com##.amp-wp-b194b9a
 letras.com##.an-pub
+adspecials.us,ajanlatok.hu,akcniletak.cz,catalogosofertas.cl,catalogosofertas.com.ar,catalogosofertas.com.br,catalogosofertas.com.co,catalogosofertas.com.ec,catalogosofertas.com.mx,catalogosofertas.com.pe,catalogueoffers.co.uk,catalogueoffers.com.au,flugblattangebote.at,flyerdeals.ca,folderz.nl,folhetospromocionais.com,folletosofertas.es,gazetki.pl,kundeavisogtilbud.no,ofertelecatalog.ro,offertevolantini.it,promocatalogues.fr,promotiez.be,promotions.ae,prospektangebote.de,reklambladerbjudanden.se,tilbudsaviseronline.dk##.anchor-wrapper
 streetdirectory.com##.anchor_bottom
 rok.guide##.ancr-sticky
 rok.guide##.ancr-top-spacer
@@ -68847,6 +68853,7 @@ apnews.com,arabiaweather.com,atlasobscura.com,forum.audiogon.com,gamesindustry.b
 huffingtonpost.co.uk,huffpost.com##.leaderboard-flex-placeholder
 huffingtonpost.co.uk,huffpost.com##.leaderboard-flex-placeholder-desktop
 bluesnews.com##.leaderboard-gutter
+jobrapido.com##.leaderboard-header-wrapper
 manitobacooperator.ca##.leaderboard-height
 medpagetoday.com##.leaderboard-region
 businessinsider.in##.leaderboard-scrollable-btf-cont
@@ -71090,6 +71097,7 @@ wayfair.com##div[data-enzyme-id="WssBannerContainer"]
 thestudentroom.co.uk##div[data-freestar-ad]
 my.clevelandclinic.org##div[data-identity*="board-ad"]
 yandex.com##div[data-name="adWrapper"]
+uefa.com##div[data-name="sponsors-slot"]
 opentable.ae,opentable.ca,opentable.co.th,opentable.co.uk,opentable.com,opentable.com.au,opentable.com.mx,opentable.de,opentable.es,opentable.hk,opentable.ie,opentable.it,opentable.jp,opentable.nl,opentable.sg##div[data-promoted="true"]
 scmp.com##div[data-qa="AdSlot-Container"]
 scmp.com##div[data-qa="AppBar-AdSlotContainer"]

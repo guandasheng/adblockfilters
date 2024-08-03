@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 6wXngOgyDEDPGFnX/dxq1Q
-! Version: 202408030811
+! Checksum: PD+aj2tT4mQwRqUuc+0G7w
+! Version: 202408031611
 ! Title: EasyPrivacy
-! Last modified: 03 Aug 2024 08:11 UTC
+! Last modified: 03 Aug 2024 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1761,6 +1761,7 @@
 /public/visitor/create?
 /publisher:getClientId?key=
 /publishertag.js
+/publitas-stats.js
 /pubstats.$domain=~pubstats.dev
 /pubtag.js
 /pulsario.js

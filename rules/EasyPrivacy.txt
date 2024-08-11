@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: xLQrMC72E7zRDbvPFNy/tQ
-! Version: 202408110810
+! Checksum: ZiCA5g5AO8U4Tqtad6OSFQ
+! Version: 202408111611
 ! Title: EasyPrivacy
-! Last modified: 11 Aug 2024 08:10 UTC
+! Last modified: 11 Aug 2024 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1427,7 +1427,7 @@
 /metrics/event?
 /metrics/ga.js
 /metrics/init?
-/metrics/metrics$domain=~docs.datadoghq.com|~github.com|~source.dot.net|~spatineo.com
+/metrics/metrics$domain=~chrome-devtools-frontend.appspot.com|~docs.datadoghq.com|~github.com|~source.dot.net|~spatineo.com
 /metrics/onload
 /metrics/ping?
 /metrics/rum

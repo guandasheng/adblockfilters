@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: sQkeSAhgi79eDXbT7Pyt8g
-! Version: 202408190121
+! Checksum: ALVIYPN9XHD65sWUiJkckA
+! Version: 202408190811
 ! Title: EasyPrivacy
-! Last modified: 19 Aug 2024 01:21 UTC
+! Last modified: 19 Aug 2024 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7504,6 +7504,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ariane.abtasty.com^
 ||arkoselabs.com/metrics/
 ||asayer.io/tracker.js
+||assets.apollo.io/micro/website-tracker/
 ||assets.moneymade.io/js/fp.min.js
 ||assets.yumpu.com/release/*/tracking.js
 ||assistant.watson.appdomain.cloud/analytics/
@@ -50347,6 +50348,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||board-game.co.uk/cdn-cgi/zaraz/s.js$script,~third-party
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||bostonglobe.com/login/js/lib/AppMeasurement.js$~third-party
+@@||browser-intake-datadoghq.com^$domain=pluto.tv
 @@||c.lytics.io/api/tag/$script,domain=time.com
 @@||c.paypal.com/da/r/fb.js$script
 @@||c.webtrends-optimize.com/acs/$image,script,domain=tvlicensing.co.uk

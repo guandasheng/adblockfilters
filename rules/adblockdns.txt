@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241030164916
-! Last modified: 2024/10/30 16:49:16
-! Blocked domains: 179456
+! Version: 20241031005046
+! Last modified: 2024/10/31 00:50:46
+! Blocked domains: 179480
 ! unBlocked domains: 63
 !
 ||contests.000.pe^
@@ -372,6 +372,7 @@
 ||smetrics.10play.com.au^
 ||10q6e9ne5.de^
 ||10sn95to9.de^
+||web-ads.10sq.net^
 ||10supreme.com^
 ||10tide.com^
 ||ywrcqa.10tv.com^
@@ -20491,6 +20492,9 @@
 ||bandithacks.com^
 ||ulinyo.bandito.com.tr^
 ||go.bandits.com^
+||amplitude.bandlab.com^
+||amplitude-experiment.bandlab.com^
+||ad.bandlab.io^
 ||makbti.bandofboats.com^
 ||bandoraclink.com^
 ||bandsaislevow.com^
@@ -25532,6 +25536,7 @@
 ||app.newsletter.bisnow.com^
 ||marketing.bisongear.com^
 ||bisoupastry.com^
+||bisozkfiv.com^
 ||bisque-beautifully-183806.framer.app^
 ||inno.bisrv.com^
 ||nsis.bisrv.com^
@@ -37360,6 +37365,7 @@
 ||www.cleanbrowser.com^
 ||cleanbrowser.network^
 ||cleancutlandservices.com^
+||log.cleandesigner.live^
 ||cleandom.in.ua^
 ||cleandownload.net^
 ||partner.cleanee.cz^
@@ -38639,6 +38645,7 @@
 ||counter.cnw.cz^
 ||cnwav.com^
 ||cnxkhmtoa.com^
+||cnxlskkkebks.xyz^
 ||m.cnxmyb.cn^
 ||cnxweb.com^
 ||cnychevrolet.com^
@@ -38814,6 +38821,7 @@
 ||app.cocolog-nifty.com^
 ||ax10.a.cocolog-nifty.com^
 ||a8.cocomeister.jp^
+||ads.cocomobi.com^
 ||bpgbcl.coconala.com^
 ||email.mg.coconstruct.com^
 ||coconutcreme.xyz^
@@ -41785,6 +41793,7 @@
 ||coupteew.com^
 ||couptoug.net^
 ||courageousbaby.com^
+||courageousdiedbow.com^
 ||activate.courant.com^
 ||courier-gr.top^
 ||gcirm.courier-journal.com^
@@ -46420,6 +46429,7 @@
 ||deathbysocial.com^
 ||deathnetad.com^
 ||deauduafzgezzfgm.top^
+||deavelydragees.shop^
 ||obqvss.debameubelen.be^
 ||debashischoudhury.com^
 ||debatablenow.com^
@@ -46657,6 +46667,7 @@
 ||xuda.deepspacewatchers.com^
 ||yiwugo.deepspacewatchers.com^
 ||deepstate.news^
+||ad.deepthought.industries^
 ||deepuniverse.cam^
 ||deepwater-design.com^
 ||deerbeginner.com^
@@ -50263,6 +50274,7 @@
 ||xml.dollopsdigital.com^
 ||xml-eu-v4.dollopsdigital.com^
 ||xml-v4.dollopsdigital.com^
+||dollphoin.site^
 ||dollsdeclare.com^
 ||dollythesheepnft.com^
 ||dolohatum.com^
@@ -60421,6 +60433,7 @@
 ||fibrehighness.com^
 ||fibreshelf.world^
 ||fibrian.pl^
+||fibrilono.top^
 ||fibromyalgiasummit.com^
 ||fibrotechinnov.com^
 ||fibstaff.com^
@@ -66947,6 +66960,7 @@
 ||gggtrenks.com^
 ||gghacks.com^
 ||gghhe.com^
+||ggjqqmwwolbmhkr.com^
 ||ggkk.xyz^
 ||page.ggled.net^
 ||ggljjk.cc^
@@ -67946,6 +67960,7 @@
 ||gloverzz.net^
 ||a8cv.glow-clinic.com^
 ||glow-works.com^
+||sensorsdata.glowapp.vip^
 ||lp.glowden.net^
 ||glowdot.com^
 ||glowedhyalins.com^
@@ -74088,6 +74103,7 @@
 ||hittoadv.com^
 ||hittracker.com^
 ||hitvisit.com^
+||stats.hitwebcloud.de^
 ||hitwebcounter.com^
 ||images.hitwise.co.uk^
 ||www.hitwise.co.uk^
@@ -80088,6 +80104,7 @@
 ||rasmas.inmar.com^
 ||cdn-engagement.inmarket.com^
 ||inmateauctions.com^
+||inmense.site^
 ||inmespritr.com^
 ||inmewa.com^
 ||inmixio.com^
@@ -82011,6 +82028,7 @@
 ||iotprojeleri.com^
 ||reg.iotworldtoday.com^
 ||smetrics.iotworldtoday.com^
+||ioublio.top^
 ||iovation.co.uk^
 ||iovation.com^
 ||iovia-pmj.com^
@@ -93332,6 +93350,7 @@
 ||life-news.site^
 ||for.life-thrones.com^
 ||adat.life.hu^
+||amplitude.life360.com^
 ||hcjpbc.lifeandstylemag.com^
 ||track.lifebetterman.online^
 ||lifebike.shop^
@@ -109685,7 +109704,7 @@
 ||metrics.nhmshop.co.uk^
 ||collector-statistics.nhn-commerce.com^
 ||nhn.dk^
-||cdn.nhnace.com^
+||nhnace.com^
 ||nhopaepzrh.com^
 ||app.nhra.com^
 ||t.nhra.com^
@@ -134181,6 +134200,7 @@
 ||reroplittrewheck.pro^
 ||rerosefarts.com^
 ||rerpartmentm.info^
+||rertessesse.xyz^
 ||adebis.reruju.com^
 ||rerunja.com^
 ||reryn2ce.com^
@@ -149042,6 +149062,7 @@
 ||tracking-api.sub100.com.br^
 ||sub2tech.com^
 ||sub8mgforsale.com^
+||subanunpollee.shop^
 ||subarnabasnet.com^
 ||s1.subaru.com^
 ||m3ds.subarumetropolitain.com^
@@ -150400,6 +150421,7 @@
 ||qwebirc.swiftirc.net^
 ||snippetdata.api.swiftkey.com^
 ||telemetry.api.swiftkey.com^
+||events.swiftlycontent.net^
 ||swiftmining.win^
 ||ads.swiftnews.com^
 ||track.swiftnewstime.com^
@@ -151383,6 +151405,7 @@
 ||talkaxis.com^
 ||join.talker.network^
 ||log.talkie-ai.com^
+||relay-event.talkie-ai.com^
 ||talkietots.com^
 ||ads.talkingpointsmemo.com^
 ||talknconvert.com^
@@ -170302,6 +170325,7 @@
 ||webmasterplan.de^
 ||ads.webmasterpoint.org^
 ||fc.webmasterpro.de^
+||webmaxlogger.net^
 ||adv.webmd.com^
 ||as.webmd.com^
 ||o.webmd.com^

@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241114165305
-! Last modified: 2024/11/14 16:53:05
-! Blocked domains: 180274
+! Version: 20241115005148
+! Last modified: 2024/11/15 00:51:48
+! Blocked domains: 180301
 ! unBlocked domains: 64
 !
 ||sam-posted.000.pe^
@@ -5134,6 +5134,7 @@
 ||absentlybiddingleopard.com^
 ||absentlygratefulcamomile.com^
 ||absentlyrindbulk.com^
+||absentmissingaccept.com^
 ||abservinean.com^
 ||abskursin.com^
 ||abslroan.com^
@@ -15754,6 +15755,18 @@
 ||aptimentor.com^
 ||aptimorph.com^
 ||network.aptimus.com^
+||fol.aptin.live^
+||gol.aptin.live^
+||ita.aptin.live^
+||let.aptin.live^
+||mod.aptin.live^
+||molt.aptin.live^
+||qqq.aptin.live^
+||supo.aptin.live^
+||tel.aptin.live^
+||tos.aptin.live^
+||viz.aptin.live^
+||voz.aptin.live^
 ||track.aptitudemedia.co^
 ||gxiqwq.aptitus.com^
 ||discover.aptly.de^
@@ -16736,6 +16749,7 @@
 ||ads.asexstories.com^
 ||asfaltexpert.ro^
 ||asferaligatron.com^
+||asfobftirag.com^
 ||aabtest.asg-media.com^
 ||asgccummig.com^
 ||asgclick.com^
@@ -21526,6 +21540,7 @@
 ||bdf7a07377.com^
 ||bdg-analytics.appspot.com^
 ||ev.api.bdg.com^
+||ev2.api.bdg.com^
 ||www.bdg001a.com^
 ||bdgadv.ru^
 ||tracking.bdi-services.de^
@@ -31736,6 +31751,7 @@
 ||log.bunjang.co.kr^
 ||bunjaraserumal.com^
 ||1.bunkr-cache.se^
+||stats.bunkr.ru^
 ||bunnslibby.com^
 ||bunny-net.com^
 ||posthog.bunny.net^
@@ -32003,6 +32019,7 @@
 ||a8.buvlabo.com^
 ||bux1le001.com^
 ||buxflow.com^
+||buxfmookn.com^
 ||buxfznnf.xyz^
 ||buxim.com^
 ||buxp.org^
@@ -48979,6 +48996,7 @@
 ||digitaldonmedia.com^
 ||digitaldoughnut.com^
 ||digitaldsp.com^
+||analytics.digitaldudes.nl^
 ||marketing.digitaledge.marketing^
 ||metrics.digitaleditions.com.au^
 ||digitalemitdportal.com^
@@ -68544,6 +68562,7 @@
 ||gloumsie.net^
 ||gloupa.com^
 ||glouseer.net^
+||glousoonomsy.xyz^
 ||gloustoa.net^
 ||gloutanacard.com^
 ||gloutchi.com^
@@ -87911,6 +87930,7 @@
 ||iwmjsk.jw.com.au^
 ||target.jwatch.org^
 ||jweber.ru^
+||jweisia.top^
 ||aozmpm.jwell.com^
 ||updates.jwhillcountryresort.com^
 ||jwia0.top^
@@ -108822,11 +108842,11 @@
 ||navi3.com^
 ||navi30.ru^
 ||navi32.com^
-||navi33.com^
 ||navi35.com^
 ||navi35.ru^
 ||navi39.ru^
 ||navi40.com^
+||navi42.ru^
 ||navi5.com^
 ||navi50.com^
 ||navi53.com^
@@ -116051,6 +116071,7 @@
 ||optionsdiva.com^
 ||optionsports.com^
 ||optionstoreplace.com^
+||optiontwentiethhart.com^
 ||marketing.optis-world.com^
 ||optiscore.com^
 ||optistats.ovh^
@@ -116972,6 +116993,7 @@
 ||outrightsham.com^
 ||outrotomr.com^
 ||follow.outrunthedark.com^
+||outseethoozet.net^
 ||outsetnormalwaited.com^
 ||outseylor.com^
 ||outshroomishan.com^
@@ -135269,6 +135291,7 @@
 ||rhombusads.com^
 ||rhopenscore.com^
 ||rhouseoyopers.info^
+||rhoxbneasg.xyz^
 ||rhsemrodeios.com^
 ||rhsorga.com^
 ||rhsrthrtjhe.com^
@@ -136579,7 +136602,6 @@
 ||rousedaudacity.com^
 ||go.roushcleantech.com^
 ||tr.route-solutiondata.fr^
-||route2content.com^
 ||route31.org^
 ||routeit.one^
 ||routeme.one^
@@ -142131,6 +142153,7 @@
 ||shitsowhoort.net^
 ||a8.shitsukekun.com^
 ||shitucka.net^
+||analytics.shivamsinghis.me^
 ||shivanjevent.com^
 ||shivayinkart.com^
 ||shiverdepartmentclinging.com^
@@ -161035,7 +161058,9 @@
 ||tubflux.buzz^
 ||tubfurryhen.com^
 ||tubgirl.me^
+||ads-image.production-public.tubi.io^
 ||analytics-ingestion.production-public.tubi.io^
+||user-signals.production-public.tubi.io^
 ||link.tubi.tv^
 ||tubiflix.us^
 ||tubinclara.com^
@@ -162700,6 +162725,7 @@
 ||umstat.com^
 ||app.griztix.umt.edu^
 ||t.griztix.umt.edu^
+||umtchdhkrx.com^
 ||app.umterps.com^
 ||t.umterps.com^
 ||umtudo.com^
@@ -168338,6 +168364,7 @@
 ||shopee.vntheme.com^
 ||vntop88.com^
 ||ads.vnumedia.com^
+||vnuuh.icu^
 ||impala.vnv.nl^
 ||vnvietcombank.cc^
 ||vnvietcombanks.cc^

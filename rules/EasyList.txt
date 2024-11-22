@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IUo/7Gpo0kIjFikfUPCBOA
-! Version: 202411211621
+! Checksum: aTsD4iycPjNU/mTX8MjT3g
+! Version: 202411220141
 ! Title: EasyList
-! Last modified: 21 Nov 2024 16:21 UTC
+! Last modified: 22 Nov 2024 01:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -22468,6 +22468,7 @@ browsershots.org#@#.advert_area
 ||customernormallyseventh.com^
 ||customsalternative.com^
 ||customselliot.com^
+||cuteab.com^
 ||cutelylookups.shop^
 ||cuterbond.com^
 ||cutescale.online^
@@ -47643,6 +47644,7 @@ browsershots.org#@#.advert_area
 ||cuevastrck.com^$popup
 ||cullemple-motline.com^$popup
 ||curvyalpaca.cc^$popup
+||cuteab.com^$popup
 ||cvastico.com^$popup
 ||cwn0drtrk.com^$popup
 ||cyan92010.com^$popup
@@ -49586,6 +49588,7 @@ browsershots.org#@#.advert_area
 ||rkatamonju.info^$popup
 ||rkskillsombineukd.com^$popup
 ||rmaticalacm.info^$popup
+||rmhfrtnd.com^$popup
 ||rmzsglng.com^$popup
 ||rndhaunteran.com^$popup
 ||rndmusharnar.com^$popup
@@ -61501,6 +61504,7 @@ sainsburys.co.uk##.pd-merchandising-product:has(.product-header--citrus[data-tes
 hannaford.com##.plp_thumb_wrap:has([data-citrusadimpressionid])
 niagarathisweek.com##.polarBlock:has(.polarAds)
 404media.co##.post__content > p:has(a[href^="https://srv.buysellads.com/"])
+404media.co##.post__content > p:has-text(This segment is a paid ad)
 myntra.com##.product-base:has(.product-waterMark)
 douglas.at,douglas.be,douglas.ch,douglas.cz,douglas.de,douglas.es,douglas.hr,douglas.hu,douglas.it,douglas.nl,douglas.pl,douglas.pt,douglas.ro,douglas.si,douglas.sk##.product-grid-column:has(.product-tile__sponsored)
 woolworths.com.au##.product-grid-v2--tile:has(.sponsored-text)

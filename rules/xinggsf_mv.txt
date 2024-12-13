@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 乘风 视频过滤规则
-! Version: 202405011
+! Version: 202412131
 ! Expires: 1 day
 ! Homepage: https://github.com/xinggsf/Adblock-Plus-Rule/issues
 
@@ -13,6 +13,7 @@ cad.youku.com
 ||alicdn.com/*yksdk/*sdk.js$script,domain=youku.com
 ||alicdn.com/awsc/et/
 
+iqiyi.com##a[href^="https://ads."]
 iqiyi.com##.black-screen[data-cupid=adblock-blackscreen], .qy-plist-ad
 iqiyi.com##.cupid-panel + div, div[data-adzone],#block-V
 iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
@@ -36,7 +37,8 @@ show.ssports.com
 v.qq.com##.video-card-module > .card-wrap
 v.qq.com##.quick_games.quick_item, div.game-switch-ad
 qq.com##+js(json-prune, ads ad material.video)
-v.qq.com##+js(no-fetch-if, /(beacon|trace)\.qq\.com/)
+v.qq.com,news.qq.com##+js(no-fetch-if, /(beacon|trace)\.qq\.com/)
+v.qq.com,news.qq.com##+js(no-xhr-if, snowflake.qq.com)
 !qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 !qq.com##+js(aopr, Beacon.prototype.fail)
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
@@ -49,14 +51,20 @@ cm.l.qq.com
 ||gtimg.com/qqlive/
 ||qzonestyle.gtimg.cn/qzone/biz/ac/comm/$script
 |https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
-!||ssp.qq.com/static/web/websites/pcnewsplugin/sspad_$script
-new.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
+news.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 ||news.ssp.qq.com/app
+||ssp.qq.com/ad^$xhr
+||staticfile.qq.com/datong/$script
+||staticfile.qq.com/qimei/$script
+||vfiles.gtimg.cn/tvideo/js/new_ping_video.js^$script
+||res.ab.qq.com/tab/$script
+||v.qq.com/cache/wuji/object^$script
 
 bilibili.com##.ad-report, .ad-floor
+bilibili.com##.container.is-version8 > .feed-card:has(>div:only-child), .container.is-version8 > .bili-video-card:has(>div:only-child)
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
-||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js^$script,redirect=noop.js
+||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js^$empty
 ||hdslb.com/bfs/sycp/creative_img/$image
 cm.bilibili.com
 
@@ -74,12 +82,16 @@ de.as.pptv.com
 ||osswc.pplive.cn/cccms/$image
 ||mediamax.suning.com/adssp/sdk/$script
 
-||cmvideo.cn/v1/iflyad/$media,image,domain=miguvideo.com
+! miguvideo.com###adver-box
+! ||ggc.cmvideo.cn/v1/iflyad/deliverysystem/direct/$image,redirect=2x2.png
+! ||cmvideo.cn/v1/iflyad/$media,image,domain=miguvideo.com
+||miguvideo.com/mgs/common/miguplayerPlugins/prd/WWWggView.js^$script
 ! 风行网： fun.tv
 pub.funshion.com
 
 ||relive.vodfile.m1905.com/video/qiantie202$media
 1905.com##.pauseInfoWrap:remove()
+||www.1905.com/uploadfile/2024/0401/20240401094429405834.jpg^$image
 sobot.com
 
 @@||tb.mgtv.com/sdk/*/ad-sdk.js^$script
@@ -89,11 +101,7 @@ sobot.com
 miaozhen.com
 
 @@||js.tv.itc.cn/gg.seed.js
-||css.tv.itc.cn/m/img/player/dlBanner.$image
-||data.vod.itc.cn/*&prod=ad&$media
-||api.my.tv.sohu.com/wm/getads.do?
 ||aty.sohu.com/
-adpushup.com
 ||go.sohu.com/
 ||tv.sohu.com/upload/csad/admaster/$image
 tv.sohu.com##.x-dl-shake.x-download-panel, #playerBar > div.area ~a
@@ -104,23 +112,11 @@ tv.sohu.com##.x-dl-shake.x-download-panel, #playerBar > div.area ~a
 
 le.com##+js(set, isAdLoaded, true)
 ||ott.cibntv.net/*/letv-wzgug/$media
-*/letv-gug/$media
-||letvimg.com/$object,xhr
+||letvimg.com/lc*_iscms/202$image
 ||letvimg.com/*_gugwl/$image
-||js.letvcdn.com/*_banner_$script
-||banana.le.com/
-adxvip.com
-behe.com
-biddingx.com
-cr-nielsen.com
-fancyapi.com
+banana.le.com
 ipinyou.com
-kejet.net
-||jd.com/$domain=le.com
-ulmdb.cn
-xelements.cn
-yoyi.com.cn
-zhiziyun.com
+||yoyi.com.cn^3p
 le.com##.min_pause_img
 ! 视频水印
 le.com##.hv_wm_logo
@@ -141,14 +137,15 @@ douyu.com,huya.com##a[href^="https://g.wan."]
 
 huya.com##a[href^="https://wan."]
 huya.com###hy-ad,#hy-ab,#huya-ab
+www.huya.com##.huya-ab
 www.huya.com##.sidebar-banner, a.J_g_resource
-www.huya.com##.duya-header-right,#public-screen-ab
+www.huya.com###public-screen-ab
 ||business.msstatic.com/advertiser/$image
 ||midext2.cdn.huya.com/ext-web-mid/ext-web-sub-frame/$subdocument
 ||live-cover.msstatic.com/huyalive/*/format,webp/$image
 ||tx-live-cover.msstatic.com/huyalive/*/format,webp/$image
 ||msstatic.com/huya/main3/assets/modules/CommercialAdSdk/$script
-||cdn.huya.com/leaf/*_max.m3u8?$xhr
+||cdn.huya.com/leaf/$xhr
 g.huya.com
 statwup.huya.com
 va.huya.com
@@ -157,37 +154,27 @@ www.ted.com##.gm-fp-body .justify-center.tracking-tightest
 ||onetrust.
 litix.io
 
-youtube.com##.masthead-ad-control, .ad-div, .pyv-afc-ads-container, #promotion-shelf
-*_ad_$media,domain=youtube.com,3p
-youtube.com##ytd-video-masthead-ad-advertiser-info-renderer, ytm-promoted-sparkles-web-renderer, ytd-promoted-sparkles-web-renderer
-youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
-||youtube.com/pagead/
-||youtube.com/ptracking?
 ||google.*/pagead/
 ||gstatic.com/shopping?
 
-||btsow.motorcycles/app/javu$image
+||btsow.motorcycles/app/jav$image
 jads.co
 |https://tellme.pw/go/jav$popup
+btsow.motorcycles##a[href^="https://tellme.pw/go/jav"]
 
 age.tv,agedm.org##+js(noeval-if, devtoolsDetector)
-||toutiaoimg.com/origin/$image,domain=agedm.org|acgndmku.com
+||cdn.aiqingyu1314.com/age/statics/js/notice.js^$script
+||toutiaoimg.com/origin/$image,domain=agedm.org
 ||dd-static.jd.com^$image,domain=subaibaiys.com
 
-!dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,webkitRTCPeerConnection,null)
-nnyy.in##.gm-fp-body video:style(max-height:100%!important)
+!dandanzan.net,nunuyy5.com##+js(set,webkitRTCPeerConnection,null)
+dandanzan.net,nnyy.in,nunuyy5.com##.gm-fp-body video:style(max-height:100%!important)
 
 yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
-yatu.tv,yhdm15.com##+js(set,document.oncontextmenu,trueFunc)
+yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 ||www.yatu.tv:2082/image/*.gif^$image
 ||www.yatu.tv:2082/m/images/$image
 
 ||tracker.$xhr,websocket,script,ping
-aqours.today
-bixinlive.com
-quandangdang.net
 stgowan.com
-youle55.com
 z4a.net

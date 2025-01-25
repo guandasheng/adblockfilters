@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WivLnfMO/mE7CFzBaFev1Q
-! Version: 202501250131
+! Checksum: rGU/5ggNdjOivy/6EAPnhA
+! Version: 202501250811
 ! Title: EasyList
-! Last modified: 25 Jan 2025 01:31 UTC
+! Last modified: 25 Jan 2025 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -872,6 +872,7 @@ _reklama_$domain=~youtube.com
 /porpoiseant/*$script
 /prebid-js-$script
 /prebid-min-$script
+/prebid-wrapper.js$script,third-party
 /prebid.$script,domain=~prebid.org
 /prebid/*$script
 /prebid1.$script
@@ -56693,7 +56694,7 @@ adlice.com,informer.com,waqi.info##.adsbygoogle
 harvardmagazine.com##.adsbygoogle-block
 thartribune.com##.adsbypubpower
 aitextpromptgenerator.com##.adsbyus_wrapper
-gayvegas.com,looktothestars.org,nintandbox.net,plurk.com,rockpasta.com,thebarentsobserver.com,tolonews.com,webtor.io##.adsense
+gayvegas.com,geekhistory.com,looktothestars.org,nintandbox.net,plurk.com,rockpasta.com,thebarentsobserver.com,tolonews.com,webtor.io##.adsense
 radaris.com##.adsense-responsive-bottom
 temporary-phone-number.com##.adsense-top-728
 101soundboards.com##.adsense_matched_content
@@ -57813,6 +57814,7 @@ techonthenet.com##.f16bdbce
 audiophilereview.com##.f7e65-midcontent
 audiophilereview.com##.f7e65-sidebar-ad-widget
 globimmo.net##.fAdW
+greenmatters.com##.fBAwDM
 dictionary.com,thesaurus.com##.fHACXxic9xvQeSNITiwH
 datenna.com##.fPHZZA
 btcmanager.com##.f_man_728
@@ -58038,6 +58040,7 @@ golinuxcloud.com##.golin-video-content
 africanadvice.com,pspad.com,sudantribune.com##.google
 apkmirror.com##.google-ad-leaderboard
 secretchicago.com##.google-ad-manager-ads-header
+safeway.com##.google-adManager
 videocardz.com##.google-sidebar
 manabadi.co.in##.googleAdsdiv
 mediamass.net##.googleresponsive
@@ -58380,6 +58383,7 @@ ticketmaster.com##.jUIMbR
 jambase.com##.jb-homev3-sense-sidebar-wrap
 psypost.org##.jeg_midbar
 sabcnews.com##.jeg_topbar
+distractify.com##.jhPEsL
 romania-insider.com##.job-item
 dot.la##.job-wrapper
 marketingweek.com##.jobs-lists
@@ -59398,7 +59402,7 @@ pcwdld.com##.sbcontent
 mindbodygreen.com##.sc-10p0iao-0
 kotaku.com##.sc-6zn1bq-0
 news.bitcoin.com##.sc-cpornS
-distractify.com,inquisitr.com,qthemusic.com,radaronline.com##.sc-fTZrbU
+distractify.com,inquisitr.com,radaronline.com##.sc-fTZrbU
 scotsman.com##.sc-igwadP
 sankakucomplex.com##.scad
 soyacincau.com##.scadslot-widget
@@ -61158,7 +61162,7 @@ askdifference.com##div[style="color: #aaa"]
 aceshowbiz.com##div[style="display:inline-block;min-height:300px"]
 kimcartoon.li##div[style="font-size: 0; position: relative; text-align: center; margin: 10px auto; width: 300px; height: 250px; overflow: hidden;"]
 pixiv.net##div[style="font-size: 0px;"] a[target="premium_noads"]
-distractify.com,greenmatters.com,inquisitr.com,okmagazine.com,qthemusic.com,radaronline.com##div[style="font-size:x-small;text-align:center;padding-top:10px"]
+distractify.com,greenmatters.com,inquisitr.com,okmagazine.com,radaronline.com##div[style="font-size:x-small;text-align:center;padding-top:10px"]
 beta.riftkit.net##div[style="height: 300px; width: 400px;"]
 pixiv.net##div[style="height: 540px; opacity: 1;"]
 paraphraser.io##div[style="height:128px;overflow: hidden !important;"]

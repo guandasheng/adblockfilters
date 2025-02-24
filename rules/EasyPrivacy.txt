@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: LY3Se96D8xkLqIF+kJXUWQ
-! Version: 202502231611
+! Checksum: ckiMrpk+oZkLcbEw3qY81Q
+! Version: 202502240141
 ! Title: EasyPrivacy
-! Last modified: 23 Feb 2025 16:11 UTC
+! Last modified: 24 Feb 2025 01:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -49417,9 +49417,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tagm.eduscho.at^
 ||tarnkappe.info^$ping
 ||taz.de/count/
-||teltarif.de/scripts/fb.js
 ||teltarif.de/scripts/ttt.js
-||teltarif.de/ttt.go?
+||teltarif.de/scripts/ttt.v2.js
 ||teltarif.de^$ping
 ||tgw.gmx.ch^
 ||tgw.gmx.net^

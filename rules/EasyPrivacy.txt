@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Vajwk5jDgQUJQ+4KsAgtMg
-! Version: 202502241621
+! Checksum: ryywyHhjipAZL8PVptVv4g
+! Version: 202502250141
 ! Title: EasyPrivacy
-! Last modified: 24 Feb 2025 16:21 UTC
+! Last modified: 25 Feb 2025 01:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2719,6 +2719,8 @@
 ://gtrack.*/dye
 ://insights-collector.
 ://internal-matomo.
+://l.*/counter.php?id=$script,~third-party
+://l.*/script.php?i=$script,~third-party
 ://lightning.*/launch/
 ://matomo.$domain=~matomo.org
 ://mint.*/?js

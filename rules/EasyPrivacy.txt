@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Ju9PENW4I39fFAl8KNS5Ug
-! Version: 202504020821
+! Checksum: 056QH2DGZcrke3Rc9b2Q+g
+! Version: 202504021621
 ! Title: EasyPrivacy
-! Last modified: 02 Apr 2025 08:21 UTC
+! Last modified: 02 Apr 2025 16:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -665,7 +665,7 @@
 /core-tracking.js
 /coretracking.php?
 /count.cfm?
-/count.do?
+/count.do?$domain=~its.busan.go.kr
 /count.exe?
 /count.fcg?
 /count.fcgi?

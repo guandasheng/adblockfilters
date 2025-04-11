@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: H8LE6FZjS1fOTfte89THPA
-! Version: 202504110821
+! Checksum: FcJPXhVRun2SBpsaipKykg
+! Version: 202504111621
 ! Title: EasyPrivacy
-! Last modified: 11 Apr 2025 08:21 UTC
+! Last modified: 11 Apr 2025 16:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2849,6 +2849,7 @@ _WebVitalsReporter_
 /gen_204?$image,other,ping,script
 /generate_204?$image
 ! Server-side GTM
+&event_name=page_view&
 &l=dataLayer&cx=c
 .js?id=GTM-
 /ns.html?id=GTM-
@@ -13016,7 +13017,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||xhcdn.com/js/*.track.min.js
 ||xing.com/logjam/
 ||xnxx.com/picserror/
-||xp.apple.com^
+||xp.apple.com/config/*/report/
+||xp.apple.com/report/
 ||xvideos.com/picserror/
 ||xxf.mobi/hit
 ||ya.ru/clck/

@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 9ei0Aiwt/7MiyhJ03q5wow
-! Version: 202507070211
+! Checksum: GiwBlKdQKgZq3krIcQ3Y8A
+! Version: 202507070821
 ! Title: EasyPrivacy
-! Last modified: 07 Jul 2025 02:11 UTC
+! Last modified: 07 Jul 2025 08:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2770,6 +2770,7 @@
 /yell-analytics-min.js
 /yell-analytics.js
 /yna_stat.js
+/yofi-telemetry-prod.min.js
 /youtubeVideoAnalytic.js
 /ystat.js
 /yt-track-streamer
@@ -9073,6 +9074,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nwr.static.mmcdn.com^
 ||o.aolcdn.com/js/mg1.js
 ||o9tt6h08li.execute-api.eu-west-1.amazonaws.com^
+||obs.jollyoutdoorjogger.com^
 ||obs.system1onesource.com^
 ||observe-nexus.pointandplace.com^
 ||observer.ip-label.net^

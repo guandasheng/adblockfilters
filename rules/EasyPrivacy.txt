@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: V1NFNJrcC10Wql8avj22Sw
-! Version: 202512240821
+! Checksum: mJEjFsKgP0uo17iVf9r+rw
+! Version: 202512241621
 ! Title: EasyPrivacy
-! Last modified: 24 Dec 2025 08:21 UTC
+! Last modified: 24 Dec 2025 16:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3330,6 +3330,7 @@ _WebVitalsReporter_
 ://line.karte.io/CI0/$image
 ://links.flickr.com/s/eo/$image
 ://links.paypal.*/eos/$image
+://mail01.monex.co.jp/bin/checker?
 ://mailmag.hhcross.hankyu-hanshin.jp/c/*.gif
 ://openedlog.
 ://parcel-api.delivery-status.*/open/$image
@@ -12390,6 +12391,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||click.nudevista.com^
 ||clickindia.com/cimem/ad-post-ajax.php?FormName=browsingHistory
 ||clickins.slixa.com^
+||client-errors.rebble.io/log-client-error
 ||client-log.box.com^
 ||client-metrics.chess.com^
 ||cloudflare.com/_cf/analytics.js

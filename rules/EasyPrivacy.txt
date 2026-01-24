@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: EG9FLgWHP33+V4R1oG69Gw
-! Version: 202601240201
+! Checksum: Sa+9omaX1ViCDS6EvXPa1g
+! Version: 202601240821
 ! Title: EasyPrivacy
-! Last modified: 24 Jan 2026 02:01 UTC
+! Last modified: 24 Jan 2026 08:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8243,6 +8243,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.statically.io/gh/opcdn/analytics/main/script.js
 ||cdn.super.com/remote-event-registry.json
 ||cdn.tolt.io/tolt.js
+||cdn.transifex.com/live.js
 ||cdn.usefathom.com^
 ||cdn.zg-api.com^*/analytics.js
 ||cdnjs.work/metrics.js
@@ -12688,6 +12689,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ebaystatic.com/cr/v/c01/ubt241024192c097b9ddc0a81e0a.js
 ||ebaystatic.com^*tracking/configuration.js
 ||ec.thredup.com^
+||eddl.cdi.services.sap.com^
 ||edge.staging.fullstory.com^
 ||edisound.com/api/p/stats
 ||eec.crunchyroll.com^
@@ -13293,6 +13295,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nextdoor.*/ajax/ping_ndas/
 ||nextdoor.com/events/
 ||nflshop.com/api/track
+||ngds.sap.com^
 ||nid.mansionglobal.com^
 ||nid.thesun.co.uk^
 ||nid.thetimes.com^
